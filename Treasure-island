@@ -1,0 +1,42 @@
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure in this mysterious island.”)
+Cross_road = input('You\'re at a cross road. Where do you want to go? Type "left" or "right" \n').lower()
+if cross_road = “right”:
+ print(“GAME OVER!!! You try to walk through some bushes. But then, you fall into quicksand. Before you can get out, you sink into the ground, and your adventure ends.”)
+else:
+ Print(“You go to the ocean and see a cave far away that looks like the one on the map.”)
+Cave = input(Now to get to the cave, do you want to wait for the boat or swim?).lower()
+if cave = “swim”:
+ print(“GAME OVER!!! Despite the warnings ringing in your head, you plunge into the water. But before you can reach the cave, you're attacked and devoured by a hungry crocodile lurking beneath the surface.”)
+else:
+ print(“After what feels like an eternity, a small boat appears on the horizon. You signal for help, and the boat picks you up, carrying you safely to the mouth of the cave.”)
+Doors = input(You enter the cave and are greeted by three doors: one red, one blue, and one yellow. You remember the map's cryptic instructions: "Only one path leads to treasure. Which door you want to choose?).lower()
+If Doors = “Red”:
+ print(“GAME OVER!!! You open the red door and step into a room filled with poisonous gas. Before you can react, the toxic fumes overwhelm you, and your adventure ends here, suffocated by the deadly air.”)
+Elif Doors = “Blue”:
+ print(“ GAME OVER!!! You open the blue door and find yourself in a room with a shimmering pool of water. Tempted by its cool depths, you dive in, only to discover too late that the water is filled with deadly jellyfish. Their venom quickly paralyzes you, and your adventure ends here, trapped in a sea of pain.”)
+Else:
+ print(“You cautiously push open the door and step into a chamber bathed in golden light. In the center of the room sits a chest overflowing with glittering jewels and precious artifacts. You've found the treasure at last! Congratulations, you've won the game!”)
+print(‘’’
+*******************************************************************************
+          |                   |                  |               |          |  
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |              |    
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                      |      
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |            |      
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |       
+ _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+|                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |              |    
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/______/_
+*******************************************************************************
+‘’’)
+
